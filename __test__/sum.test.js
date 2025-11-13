@@ -1,4 +1,4 @@
-import { sum } from '../src/sum.js';
+import {sum} from '../src/sum.js';
 
 
 describe('sum', () => {
@@ -14,4 +14,3 @@ describe('sum', () => {
         expect(() => sum('2', 3)).toThrow(TypeError);
     });
 });
-//Super code !! ^_^
